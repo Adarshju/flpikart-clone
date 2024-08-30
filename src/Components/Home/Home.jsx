@@ -5,9 +5,9 @@ import Category from '../Category/Category'
 
 const Home = () => {
   return (
-    <div className='main h-100 w-100'>
+    <div className='main'>
         <NavBar/>
-        <Category/>
+        {/* <Category/> */}
     </div>
   )
 }

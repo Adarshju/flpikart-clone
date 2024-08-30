@@ -4,10 +4,10 @@ import search_icon from "../../assets/images/search-icon.png";
 
 const NavBar = () => {
   return (
-    <div className="container-fluid bg-white">
+    <div className="container-fluid bg-white p-0 m-0">
       <div className="row m-0 p-0 d-flex flex-column justify-content-center align-items-center w-100">
         <div className=" col-xl-10 col-12 d-flex flex-column align-items-center justify-content-center nav-bar">
-          <div className="d-flex align-items-center justify-content-around w-100 ">
+          <div className="d-flex align-items-center justify-content-center w-100 ">
             <div className="me-5">
               <img
                 src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg"
@@ -97,7 +97,7 @@ const NavBar = () => {
               </ul>
             </div>
           </div>
-          <div className="d-block d-md-none w-100 d-flex justify-content-center">
+          {/* <div className="d-block d-md-none w-100 d-flex justify-content-center">
             <div className="sm-search w-100 position-relative">
               <div className="sm-search-icon position-absolute top-0 left-0 bottom-0 d-flex justify-content-center align-items-center">
                 <button className="border-0 p-2">
@@ -110,7 +110,7 @@ const NavBar = () => {
                 placeholder="Search For Products, Brandsand More"
               />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
