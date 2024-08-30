@@ -5,7 +5,7 @@ function Category() {
   return (
     <div className="container-fluid d-flex justify-content-center mt-2 mb-3">
       <div className="row d-flex justify-content-center w-100">
-        <div className="col-12 col-xxl-10 bg-white ">
+        <div className="col-12 col-xxl-10 bg-white overflow-auto ">
           <div className="d-flex justify-content-center aligin-items-center">
             <div className="pb-4 pt-3 px-4 ">
               <a href="" className="text-black">
