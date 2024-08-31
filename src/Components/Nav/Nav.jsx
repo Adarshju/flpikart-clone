@@ -8,7 +8,7 @@ const NavBar = () => {
       <div className="row m-0 p-0 d-flex flex-column justify-content-center align-items-center w-100">
         <div className=" col-xl-10 col-12 d-flex flex-column align-items-center justify-content-center nav-bar">
           <div className="d-flex align-items-center justify-content-center w-100 ">
-            <div className="me-5">
+            <div className="me-md-5 me-0">
               <img
                 src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg"
                 alt=""
